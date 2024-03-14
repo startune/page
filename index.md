@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "startune"
+  text: "startune"
   tagline: My great project tagline
   actions:
     - theme: brand
