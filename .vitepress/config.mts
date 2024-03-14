@@ -45,7 +45,9 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'youtube', link: 'https://www.youtube.com/channel/UCqw2b-kaEI2asItCcciZAMA' },
+      { icon: 'twitter', link: 'https://twitter.com/NeoWarren' }
     ],
 
     search: {
