@@ -1,0 +1,32 @@
+{
+  "name": "startune-page",
+  "version": "1.0.0",
+  "description": "startune-page",
+  "main": "index.js",
+  "keywords": [
+    "startune-page"
+  ],
+  "author": "xsh",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build && node ./build/copy.mjs",
+    "docs:preview": "vitepress preview"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights"
+      ]
+    }
+  },
+  "devDependencies": {
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "vitepress": "1.0.0-rc.45",
+    "vue": "^3.4.21"
+  }
+}
