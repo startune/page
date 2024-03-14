@@ -25,6 +25,14 @@ export default defineConfig({
       gtag('js', new Date());
     
       gtag('config', 'G-SBVEXD4VKV');`
+    ],
+    [
+      'script',
+      { 
+        async: true,
+        crossorigin: 'anonymous',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8990964151180359'
+      }
     ]
   ],
   themeConfig: {
