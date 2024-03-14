@@ -9,6 +9,24 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://startune.github.io'
   },
+  head: [
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-SBVEXD4VKV'
+      }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-SBVEXD4VKV');`
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
