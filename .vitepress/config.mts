@@ -5,6 +5,10 @@ export default defineConfig({
   outDir: './docs',
   title: "startune",
   description: "startune",
+  lastUpdated: true,
+  sitemap: {
+    hostname: 'https://startune.github.io'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
