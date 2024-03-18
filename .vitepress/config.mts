@@ -13,7 +13,7 @@ export default defineConfig({
     [
       'script',
       {
-        async: true,
+        async: "true",
         src: 'https://www.googletagmanager.com/gtag/js?id=G-SBVEXD4VKV'
       }
     ],
@@ -29,7 +29,7 @@ export default defineConfig({
     [
       'script',
       { 
-        async: true,
+        async: "true",
         crossorigin: 'anonymous',
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8990964151180359'
       }
