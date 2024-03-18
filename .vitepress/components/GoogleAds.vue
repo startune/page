@@ -1,6 +1,10 @@
 <script setup lang='ts'>
+import { onMounted } from 'vue';
+
+onMounted(() => {
   const adsbygoogle = window.adsbygoogle || [];
   adsbygoogle.push({});
+})
 </script>
 <template>
   <ins class="adsbygoogle"
