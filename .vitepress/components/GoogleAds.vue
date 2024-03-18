@@ -18,6 +18,6 @@ onMounted(() => {
 </template>
 <style scoped>
 .google-ads {
-  height: 100px; 
+  height: 250px; 
 }
 </style>
