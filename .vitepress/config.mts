@@ -13,7 +13,7 @@ export default defineConfig({
     [
       'script',
       {
-        async: "true",
+        async: '',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-SBVEXD4VKV'
       }
     ],
@@ -26,14 +26,15 @@ export default defineConfig({
     
       gtag('config', 'G-SBVEXD4VKV');`
     ],
-    [
-      'script',
-      { 
-        async: "true",
-        crossorigin: 'anonymous',
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8990964151180359'
-      }
-    ]
+    // [
+    //   'script',
+    //   { 
+    //     async: '',
+    //     crossorigin: 'anonymous',
+    //     'data-ad-client': 'ca-pub-8990964151180359',
+    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8990964151180359'
+    //   }
+    // ]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
