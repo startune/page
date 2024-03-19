@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: './mds',
   outDir: './docs',
   title: "startune",
   description: "startune",
