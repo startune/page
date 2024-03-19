@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  husky: ^9.0.11
   vite: ^5.1.6
   vitepress: 1.0.0-rc.45
   vue: ^3.4.21
@@ -10,6 +11,7 @@ dependencies:
   vue: 3.4.21
 
 devDependencies:
+  husky: 9.0.11
   vite: 5.1.6
 
 packages:
@@ -803,6 +805,12 @@ packages:
   /hookable/5.5.3:
     resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
     dev: false
+
+  /husky/9.0.11:
+    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
+    engines: {node: '>=18'}
+    hasBin: true
+    dev: true
 
   /magic-string/0.30.8:
     resolution: {integrity: sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==}
