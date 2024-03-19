@@ -12,7 +12,9 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "test": "echo \"Error: no test specified\"",
+    "prepare": "husky install"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -32,7 +34,7 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "npm run doc:build && git add ."
+      "pre-commit": "npm run doc:build && git add ."
     }
   }
 }
